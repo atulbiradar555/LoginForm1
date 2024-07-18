@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        main{
+            height: 100vh;
+            width: 100%;
+            background-image: url(./photo-1628427634386-7a6e2d1f55ac.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            position: absolute;
+        }
+
+        main menu{
+            height: 380px;
+            width: 300px;
+            border: 2px solid white;
+            margin: 150px auto;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px;
+            z-index: 1;
+        }
+        .inputF{
+            height: 45px;
+            width: 200px;
+            margin: 5px auto;
+            margin-left: 50px;
+            /* margin-top: 20px; */
+            /* border-radius: 5px; */
+            outline: none;
+            border: none;
+            border-bottom: 2px solid white;
+            background-color: transparent;
+            color: white;
+
+        
+        }
+        .btn:hover{
+            background-color: green;
+            border: 2px solid rgb(255, 187, 0);
+            box-shadow: 0px 0px 20px white;
+        }
+        .inp1{
+            margin-top: 0px;
+            margin-bottom: 15px;
+        }
+        .inp2{
+            /* margin-top: 10px; */
+        }
+        .btn{
+            height: 45px;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .btn1{
+            background-color: rgba(0, 0, 255, 0.503);
+            color: white;
+            border: 1px solid white;
+            /* margin-top: 10px; */
+            box-shadow: 0px 0px 5px;
+            text-shadow: 0px 0px 5px white;
+        }
+        p{
+            margin-top: 10px;
+            text-align: center;
+            font-size: 20px;
+            text-shadow: 0px 0px 5px white;
+        }
+        #p1{
+            margin-top: 20px;
+            font-size: 15px;
+            margin-right: 140px;
+            margin-bottom: 5px;
+        }
+        #p2{
+            margin-right: 100px;
+            margin-bottom: 5px;
+        }
+        a{
+            color: white;
+            font-size: 17px;
+            text-decoration: none;
+            margin-bottom: 50px;
+            margin-left: 20px;
+
+        }
+        ::placeholder{
+            color: white;
+            opacity: 0.6;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <menu>
+            <form action="">
+                <p>Login</p>
+                <p id="p1">Username</p>
+                <input class="inputF inp1"  type="email"  placeholder="Enter username">
+                <p id="p1">Password</p>
+                <input class="inputF inp2" type="password"  placeholder="Enter password"><br><br>
+                <hr>
+                <input class="btn btn1" type="submit" value="LOGIN">
+                <p id="p2">&nbsp;&nbsp; <a href="#">Forget Password</a></p>
+                <!-- <input class="btn btn2" type="reset" value="SIGNUP"> -->
+            </form>
+        </menu>
+    </main>
+</body>
+</html>
